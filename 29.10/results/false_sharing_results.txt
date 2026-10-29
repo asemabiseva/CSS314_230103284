@@ -1,0 +1,55 @@
+P= 1 | Time=1.5515 s | Speedup=1.000x
+P= 2 | Time=2.0125 s | Speedup=0.771x
+P= 4 | Time=2.4860 s | Speedup=0.624x
+P= 8 | Time=3.1076 s | Speedup=0.499x
+
+UNPADDED COUNTERS
+-------------------------------------------------------
+unpadded     | P= 1 | Time=1.5704 s | PASS=True
+unpadded     | P= 2 | Time=1.8563 s | PASS=True
+unpadded     | P= 4 | Time=2.4028 s | PASS=True
+unpadded     | P= 8 | Time=3.0712 s | PASS=True
+
+PADDED COUNTERS
+-------------------------------------------------------
+padded       | P= 1 | Time=1.5157 s | PASS=True
+padded       | P= 2 | Time=1.6716 s | PASS=True
+padded       | P= 4 | Time=1.8753 s | PASS=True
+padded       | P= 8 | Time=2.2364 s | PASS=True
+
+PRIVATIZED COUNTERS
+-------------------------------------------------------
+privatized   | P= 1 | Time=0.5297 s | PASS=True
+privatized   | P= 2 | Time=0.5374 s | PASS=True
+privatized   | P= 4 | Time=0.6608 s | PASS=True
+privatized   | P= 8 | Time=0.8287 s | PASS=True
+
+FINAL PERFORMANCE COMPARISON
+---------------------------------------------------------------------------
+  P |   Unpadded (s) |   Padded (s) |  Privatized (s)
+---------------------------------------------------------------------------
+  1 |         1.5704 |       1.5157 |          0.5297
+  2 |         1.8563 |       1.6716 |          0.5374
+  4 |         2.4028 |       1.8753 |          0.6608
+  8 |         3.0712 |       2.2364 |          0.8287
+
+SPEEDUP RELATIVE TO ONE PROCESS
+-----------------------------------------------------------------
+
+UNPADDED
+P= 1: 1.000x
+P= 2: 0.846x
+P= 4: 0.654x
+P= 8: 0.511x
+
+PADDED
+P= 1: 1.000x
+P= 2: 0.907x
+P= 4: 0.808x
+P= 8: 0.678x
+
+PRIVATIZED
+P= 1: 1.000x
+P= 2: 0.986x
+P= 4: 0.801x
+P= 8: 0.639x
