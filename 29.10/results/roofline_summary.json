@@ -1,0 +1,36 @@
+{
+    "kernel": "Five-point 2D stencil",
+    "matrix_dimension": 1152,
+    "seed": 16454,
+    "cpu": {
+        "physical_cores": 6,
+        "logical_threads": 12
+    },
+    "floating_point_operations_per_interior_cell": 5,
+    "arithmetic_intensity_flop_per_byte": {
+        "ideal_cache_reuse": 0.3125,
+        "no_cache_reuse": 0.125
+    },
+    "estimated_bytes_per_interior_cell": {
+        "ideal_cache_reuse": 16,
+        "no_cache_reuse": 40
+    },
+    "cache": {
+        "L1_data_KB": null,
+        "L2_KB": null,
+        "L3_MB": null,
+        "cache_line_bytes": null
+    },
+    "peak_memory_bandwidth_GB_s": 21.3,
+    "peak_compute_GFLOPS": 384.0,
+    "roofline": {
+        "ridge_point_flop_per_byte": null,
+        "ideal_reuse_classification": "Undetermined: missing hardware values",
+        "no_reuse_classification": "Undetermined: missing hardware values"
+    },
+    "notes": [
+        "Arithmetic intensity values are theoretical estimates.",
+        "Actual DRAM traffic depends on cache reuse and temporary arrays.",
+        "Roofline classification requires verified peak bandwidth and compute throughput."
+    ]
+}

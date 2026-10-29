@@ -238,6 +238,10 @@ def collect_profile():
         )
 
     return {
+        "cpu_model": cpu_model,
+        "physical_cores": physical_cores,
+        "logical_threads": logical_cores,
+        "cache_line_bytes": 64,
         "host": {
             "os": platform.system(),
             "os_release": platform.release(),

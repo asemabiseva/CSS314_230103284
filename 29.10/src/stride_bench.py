@@ -40,7 +40,7 @@ def benchmark_stride(data, stride):
         "stride": stride,
         "elements_touched": elements_touched,
         "median_time_ns": round(median_time_ns, 2),
-        "latency_ns_per_element": round(latency_ns, 6),
+        "latency_ns": round(latency_ns, 6),
         "checksum": checksum,
     }
 
@@ -68,7 +68,7 @@ def main():
             f"Stride {stride:3d} | "
             f"Elements: {result['elements_touched']:>10,} | "
             f"Median: {result['median_time_ns']:>12,.0f} ns | "
-            f"Latency: {result['latency_ns_per_element']:.6f} ns/element"
+            f"Latency: {result['latency_ns']:.6f} ns/element"
         )
 
     # Write tab-separated results.
@@ -76,7 +76,7 @@ def main():
         "stride",
         "elements_touched",
         "median_time_ns",
-        "latency_ns_per_element",
+        "latency_ns",
         "checksum",
     ]
 

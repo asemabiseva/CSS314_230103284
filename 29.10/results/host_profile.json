@@ -1,4 +1,8 @@
 {
+    "cpu_model": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "physical_cores": 6,
+    "logical_threads": 12,
+    "cache_line_bytes": 64,
     "host": {
         "os": "Windows",
         "os_release": "11",
