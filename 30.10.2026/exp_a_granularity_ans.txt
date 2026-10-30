@@ -1,0 +1,9 @@
+EXPERIMENT A: THE GRANULARITY TRAP
+Workers: 6
+Total items: 1,000,000
+-------------------------------------------------------
+Chunk size:      1 | Time: 122.2866 sec | Checksum: 131434424
+Chunk size:     10 | Time: 12.1429 sec | Checksum: 131434424
+Chunk size:    100 | Time: 6.0367 sec | Checksum: 131434424
+Chunk size:   1000 | Time: 4.8882 sec | Checksum: 131434424
+Chunk size:  10000 | Time: 4.8434 sec | Checksum: 131434424

@@ -1,0 +1,16 @@
+--- EXPERIMENT C: LOCAL BUFFER CHUNKING ---
+Total items: 10,000,000
+Batch size: 10,000
+-----------------------------------------------------------------
+P= 1 | Time=1.5364s | Checksum=29999994
+P= 2 | Time=2.0636s | Checksum=29999994
+P= 4 | Time=1.2756s | Checksum=29999994
+P= 8 | Time=1.8259s | Checksum=29999994
+
+--- KARP-FLATT ANALYSIS ---
+P= 2 | Time=2.0636s | Speedup=0.74x | Karp-Flatt e=1.6863
+P= 4 | Time=1.2756s | Speedup=1.20x | Karp-Flatt e=0.7736
+P= 8 | Time=1.8259s | Speedup=0.84x | Karp-Flatt e=1.2153
+
+--- VERIFICATION ---
+PASS: All worker counts produced the same checksum.

@@ -1,0 +1,10 @@
+--- EXPERIMENT B: QUEUE CONTENTION ---
+P=1 | Time=5.4154s
+P=2 | Time=8.7829s
+P=4 | Time=9.6174s
+P=8 | Time=9.3423s
+
+--- Queue Contention Karp-Flatt Analysis ---
+P= 2 | Time= 8.783s | Speedup= 0.62x | Karp-Flatt e= 2.244
+P= 4 | Time= 9.617s | Speedup= 0.56x | Karp-Flatt e= 2.035
+P= 8 | Time= 9.342s | Speedup= 0.58x | Karp-Flatt e= 1.829
