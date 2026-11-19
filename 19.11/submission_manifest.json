@@ -1,0 +1,85 @@
+{
+  "github_username": "asemabiseva",
+  "gpu_uuid": "GPU-2ee934ca-5301-564d-a59b-c9bf5893bf73",
+  "instance_seed": 16454080969576568231,
+  "mpi_ranks": 4,
+  "cartesian_dims": [
+    2,
+    2
+  ],
+  "local_padded_shape": [
+    258,
+    258
+  ],
+  "steps": 400,
+  "dt": 7.916332597431055e-07,
+  "dx": 0.001949317738791423,
+  "max_diffusivity": 0.21484979445565294,
+  "serialized_ms": 4635.3650880000005,
+  "overlapped_ms": 2105.7044210000004,
+  "serialized_cuda_event_ms_last_step": 3.7744319438934326,
+  "overlapped_cuda_event_ms_last_step": 6.757919788360596,
+  "parity_max_diff": 0.0,
+  "ptx_counts": {
+    "st_shared_f64": 5,
+    "ld_shared_f64": 5,
+    "bar_sync": 1,
+    "st_shared_any": 5,
+    "ld_shared_any": 5
+  },
+  "ptx_audit_passed": true,
+  "energy_trace_serialized": [
+    {
+      "step": 0,
+      "energy": 0.05269742163149606,
+      "l2": 92.4202741881175
+    },
+    {
+      "step": 100,
+      "energy": 0.05269385933637738,
+      "l2": 91.17090551223802
+    },
+    {
+      "step": 200,
+      "energy": 0.0526915517308809,
+      "l2": 90.47519114916231
+    },
+    {
+      "step": 300,
+      "energy": 0.05268954449370316,
+      "l2": 89.87916456184314
+    },
+    {
+      "step": 400,
+      "energy": 0.05268768687426324,
+      "l2": 89.33700716526934
+    }
+  ],
+  "energy_trace_overlapped": [
+    {
+      "step": 0,
+      "energy": 0.05269742163149606,
+      "l2": 92.4202741881175
+    },
+    {
+      "step": 100,
+      "energy": 0.05269385933637738,
+      "l2": 91.17090551223802
+    },
+    {
+      "step": 200,
+      "energy": 0.0526915517308809,
+      "l2": 90.47519114916231
+    },
+    {
+      "step": 300,
+      "energy": 0.05268954449370316,
+      "l2": 89.87916456184314
+    },
+    {
+      "step": 400,
+      "energy": 0.05268768687426324,
+      "l2": 89.33700716526934
+    }
+  ]
+}
