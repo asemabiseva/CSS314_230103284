@@ -1,0 +1,109 @@
+{
+    "system": {
+        "github_username": "asemabiseva",
+        "cpu_model": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "logical_cores": 12,
+        "cache_line_size": 64,
+        "instance_seed": 17844570164902089363,
+        "affinity_supported": false,
+        "cpu_affinity": [
+            0,
+            1,
+            2,
+            3
+        ]
+    },
+    "threads": 4,
+    "iterations_per_thread": 60000000,
+    "results": {
+        "stride_1": {
+            "stride": 1,
+            "elapsed_ns": 2376000,
+            "ns_per_update": 0.0099,
+            "context_switches": {
+                "voluntary": null,
+                "involuntary": null
+            },
+            "values": [
+                5820000000,
+                60000000,
+                120000000,
+                180000000
+            ],
+            "verification_passed": true
+        },
+        "stride_4": {
+            "stride": 4,
+            "elapsed_ns": 1856700,
+            "ns_per_update": 0.00773625,
+            "context_switches": {
+                "voluntary": null,
+                "involuntary": null
+            },
+            "values": [
+                5820000000,
+                60000000,
+                120000000,
+                180000000
+            ],
+            "verification_passed": true
+        },
+        "stride_8": {
+            "stride": 8,
+            "elapsed_ns": 3815400,
+            "ns_per_update": 0.0158975,
+            "context_switches": {
+                "voluntary": null,
+                "involuntary": null
+            },
+            "values": [
+                5820000000,
+                60000000,
+                120000000,
+                180000000
+            ],
+            "verification_passed": true
+        },
+        "stride_16": {
+            "stride": 16,
+            "elapsed_ns": 6000100,
+            "ns_per_update": 0.025000416666666667,
+            "context_switches": {
+                "voluntary": null,
+                "involuntary": null
+            },
+            "values": [
+                5820000000,
+                60000000,
+                120000000,
+                180000000
+            ],
+            "verification_passed": true
+        },
+        "private": {
+            "stride": 1,
+            "elapsed_ns": 52344000,
+            "ns_per_update": 0.2181,
+            "context_switches": {
+                "voluntary": null,
+                "involuntary": null
+            },
+            "values": [
+                5820000000,
+                60000000,
+                120000000,
+                180000000
+            ],
+            "verification_passed": true
+        }
+    },
+    "slowdown_stride_1_vs_stride_8": 0.6227394244378047,
+    "audit": {
+        "llvm_load_i64_count": 4,
+        "llvm_store_i64_count": 1,
+        "llvm_native_memory_operations_found": true,
+        "parity_passed": true
+    },
+    "verification_passed": true
+}
